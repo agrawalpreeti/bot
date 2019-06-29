@@ -4,6 +4,7 @@
   "description": "The awesomest bot evar.",
   "main": "index.js",
   "scripts": {
+    "bot": "cross-env TOKEN=xoxb-682001094855-668761614739-A9qWwKrv1vFMGT3e0LPTvhIM",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,5 +29,8 @@
     "botkit": "0.2.2",
     "botkit-storage-mongo": "^1.0.2",
     "mongodb": "^1.4.39"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
   }
 }
